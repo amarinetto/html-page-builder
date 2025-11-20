@@ -11,7 +11,7 @@ const Index = () => {
       {/* Header */}
       <header className="bg-card border-b border-border sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 max-w-5xl">
-          <img src={logo} alt="Commerce Review" className="h-8" />
+          <img src={logo} alt="Commerce Review" className="h-12" />
         </div>
       </header>
 
