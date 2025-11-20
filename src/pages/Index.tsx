@@ -3,7 +3,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { SocialShare } from "@/components/SocialShare";
 import heroCamera from "@/assets/hero-camera.jpg";
 import productCamera from "@/assets/product-camera.jpg";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/commerce-review-logo.png";
 
 const Index = () => {
   return (
