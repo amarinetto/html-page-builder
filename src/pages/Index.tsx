@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/ProductCard";
 import { SocialShare } from "@/components/SocialShare";
+import { Link } from "react-router-dom";
 import heroCamera from "@/assets/hero-camera.jpg";
 import productCamera from "@/assets/product-camera.jpg";
 import logo from "@/assets/commerce-review-logo.png";
@@ -54,7 +55,7 @@ const Index = () => {
           <div className="prose prose-lg max-w-none mb-12">
             <p className="text-article-text mb-4 leading-relaxed">
               There is no price for safety. As per Consumer Reports, having a home security 
-              system may help increase the value of your home by up to 5%. <sup>[1]</sup>
+              system may help increase the value of your home by <Link to="/b" className="text-primary hover:underline font-medium">up to 5%</Link>. <sup>[1]</sup>
             </p>
 
             <p className="text-article-text mb-4 leading-relaxed">
