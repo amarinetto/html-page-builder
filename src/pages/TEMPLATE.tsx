@@ -5,7 +5,7 @@ import heroCamera from "@/assets/hero-camera.jpg";
 import productCamera from "@/assets/product-camera.jpg";
 import logo from "@/assets/commerce-review-logo.png";
 
-const PageB = () => {
+const TEMPLATE = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -194,4 +194,4 @@ const PageB = () => {
   );
 };
 
-export default PageB;
+export default TEMPLATE;
