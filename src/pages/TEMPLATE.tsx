@@ -31,13 +31,13 @@ const TEMPLATE = () => {
         <article>
           <header className="mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-article-heading mb-6 leading-tight">
-              title B
+              PAGE_TITLE
             </h1>
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
-              <span>By <span className="text-primary font-medium">Katie</span></span>
+              <span>By <span className="text-primary font-medium">PAGE_AUTHOR</span></span>
               <span>•</span>
-              <span className="text-primary font-medium">REALESTATE</span>
-              <span className="ml-auto">Mon-Jan 1, 2025</span>
+              <span className="text-primary font-medium">CONTENT_CATEGORY</span>
+              <span className="ml-auto">CONTENT_DATE</span>
             </div>
           </header>
 
@@ -53,23 +53,7 @@ const TEMPLATE = () => {
           {/* Article Body */}
           <div className="prose prose-lg max-w-none mb-12">
             <p className="text-article-text mb-4 leading-relaxed">
-              There is no price for safety. As per Consumer Reports, having a home security 
-              system may help increase the value of your home by up to 5%. <sup>[1]</sup>
-            </p>
-
-            <p className="text-article-text mb-4 leading-relaxed">
-              That's because with safety there comes stability.
-            </p>
-
-            <p className="text-article-text mb-8 leading-relaxed">
-              Coldwell Banker's survey showed that in 2023 it's as much as <strong>77% of home 
-              buyers want their houses to be equipped with smart home technology before moving in.</strong> The 
-              reasons vary, but the sense of security is the priority here.
-            </p>
-
-            <p className="text-article-text mb-8 leading-relaxed">
-              Ultimately making properties equipped with smart home security systems more{" "}
-              <strong>attractive in the competitive market</strong>.
+              CONTENT_INTRO
             </p>
 
             {/* Product Cards */}
@@ -88,15 +72,11 @@ const TEMPLATE = () => {
 
             {/* Section Heading */}
             <h2 className="text-3xl font-bold text-article-heading mb-6 mt-12">
-              What Are Vivint Smart Home Alarm Systems?
+              CONTENT_SUBTITLE
             </h2>
 
             <p className="text-article-text mb-4 leading-relaxed">
-              <a href="#" className="text-primary hover:underline font-medium">Vivint</a> offers 
-              millions of Americans safety, protecting them 24/7 against a variety of modern 
-              threats. Find peace of mind with a{" "}
-              <a href="#" className="text-primary hover:underline font-medium">Vivint</a> smart 
-              security system that's custom-built for your unique home.
+                CONTENT_BODY
             </p>
 
             <ol className="list-decimal list-inside space-y-4 mb-8 text-article-text">
